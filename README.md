@@ -1,4 +1,4 @@
-##English🇺🇸🇺🇸
+## English🇺🇸🇺🇸
 
 ## 📚 Concepts Applied
 *   **Recursion:** Handling nested function calls to solve sub-problems.
@@ -60,7 +60,7 @@ Input Matrix:
 Determinant: 0
 
 ```
-###Portuguese🇧🇷🇧🇷
+### Portuguese🇧🇷🇧🇷
 
 
 ## 📚 Conceitos Aplicados
