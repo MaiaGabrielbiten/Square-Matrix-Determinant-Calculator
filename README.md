@@ -1,4 +1,4 @@
-##English
+##English🇺🇸🇺🇸
 
 ## 📚 Concepts Applied
 *   **Recursion:** Handling nested function calls to solve sub-problems.
@@ -45,7 +45,7 @@ The core of the program lies in two functions:
     ```
 
 ## 📝 Example Output
-```text
+```
 Insert a VALID number of rows and columns (square matrix): 3
 
 Insert element [1][1]: 1
@@ -60,7 +60,7 @@ Input Matrix:
 Determinant: 0
 
 ```
-###Portuguese
+###Portuguese🇧🇷🇧🇷
 
 
 ## 📚 Conceitos Aplicados
