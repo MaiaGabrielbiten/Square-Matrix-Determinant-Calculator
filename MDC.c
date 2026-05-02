@@ -34,7 +34,7 @@ void getsubmatrix(int n,int col_to_skip, int matrix[n][n], int submatrix[n-1][n-
 int getdet(int n, int matrix[n][n]){
     int det = 0;
 
-    // if the matrix is too trivial to the its determinant, calculate it immediately
+    // if the matrix is too trivial to get its determinant, calculate it immediately
 
     if (n == 1){
         det = matrix[0][0];
@@ -59,7 +59,7 @@ int getdet(int n, int matrix[n][n]){
         for(int i = 0; i < n; i++){
             getsubmatrix(n, i, matrix, submatrix);
 
-            // For each submatrix determinant we need to add to the current total determinant value the previous determinant, to it, we multiply by the current sign and does the calc. OBS: the get det is for the submatrix
+            // We need to cumulate the determinants of the submatrixes, to it, we multiply by the current sign and does the calc. OBS: the get det is for the submatrix
 
             det += sign * matrix[0][i] * getdet(n - 1, submatrix);
 
